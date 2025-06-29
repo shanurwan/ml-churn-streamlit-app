@@ -1,4 +1,4 @@
-# 📉 From Engagement to Exit: Scalable Churn Prediction Engine for Recruitment Platforms
+# 📉 Recruiter Churn Radar: A Streamlit-Powered Prototype for Customer Success Teams
 
 ## 🔍 Overview
 This project simulates a real-world churn prediction system for a B2B recruitment platform (like JobStreet or SEEK). The goal was to identify customers likely to churn — based on historical engagement behavior — using a machine learning pipeline and deploy it in real-time with Streamlit.
