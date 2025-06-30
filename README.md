@@ -76,12 +76,16 @@ The app allows users to:
 customer_id,signup_date,last_login_date,job_posts,applications_received,support_tickets,plan_type
 CUS1234,2023-01-02,2024-03-15,10,120,1,Pro
 CUS5678,2022-07-10,2023-12-01,1,10,3,Free
+```
 
 ✅ Output
+
+```csv
 is_churned = 1 → likely to churn
 is_churned = 0 → likely to stay
+```
 
-💡 Key Insights & Business Value
+### 💡 Key Insights & Business Value
 1. From Code to Context
 Even high-performing models fail if behavior isn’t well captured. This project replicates a real SaaS environment where churn prediction must be both technical and contextual.
 
@@ -97,18 +101,18 @@ Predictors like login gaps or low job activity are easily interpreted, making th
 5. Deployment as a Service
 The Streamlit app acts as a prototype for internal tools that serve live business decisions instead of just static reports.
 
-🔧 Potential Improvements
-Validate with real-world datasets (e.g., Kaggle, HuggingFace)
+### 🔧 Potential Improvements
+- Validate with real-world datasets (e.g., Kaggle, HuggingFace)
 
-Add more behavioral metrics (e.g., session duration, click-through)
+- Add more behavioral metrics (e.g., session duration, click-through)
 
-Incorporate time-series trends (e.g., monthly job post volume)
+- Incorporate time-series trends (e.g., monthly job post volume)
 
-Use SHAP for explainability
+- Use SHAP for explainability
 
-Build a Power BI dashboard for reporting
+- Build a Power BI dashboard for reporting
 
-🌟 Why This Project Matters
+### 🌟 Why This Project Matters
 This isn’t just another ML notebook. It's a full pipeline that mimics real product challenges:
 
 ✅ End-to-end execution (from data gen to deployment)
@@ -119,7 +123,7 @@ This isn’t just another ML notebook. It's a full pipeline that mimics real pro
 
 ✅ Deployment thinking (Streamlit app as a usable tool)
 
-🛠️ How to Run
+### 🛠️ How to Run
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
